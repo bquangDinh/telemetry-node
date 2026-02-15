@@ -21348,6 +21348,18 @@
 			(justify left bottom)
 		)
 	)
+	(gr_text "STM32F103"
+		(at 227.25 68.5 90)
+		(layer "F.SilkS")
+		(uuid "4c91390a-2bfd-4e34-937d-e43cf90dc48e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
 	(gr_text "PA3"
 		(at 218.7 52.3 90)
 		(layer "F.SilkS")
