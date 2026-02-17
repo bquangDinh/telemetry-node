@@ -547,7 +547,7 @@
       "plot": "manufacture/",
       "pos_files": "manufacture/",
       "specctra_dsn": "",
-      "step": "",
+      "step": "telemetry-node.stl",
       "svg": "",
       "vrml": ""
     },
