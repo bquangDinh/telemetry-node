@@ -21345,7 +21345,7 @@
 		)
 	)
 	(gr_text "STM32F103"
-		(at 227.25 68.5 90)
+		(at 227.25 70 90)
 		(layer "F.SilkS")
 		(uuid "4c91390a-2bfd-4e34-937d-e43cf90dc48e")
 		(effects
@@ -21408,6 +21408,18 @@
 		(at 198 87.8 90)
 		(layer "F.SilkS")
 		(uuid "73e281ac-98c2-41db-9898-df25e41c42af")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "v1.2.0"
+		(at 227.1 60.7 90)
+		(layer "F.SilkS")
+		(uuid "740d6892-6661-494b-ba63-56df673d66e4")
 		(effects
 			(font
 				(size 1 1)
@@ -21609,7 +21621,7 @@
 		)
 	)
 	(gr_text "Quang."
-		(at 227 74.6 90)
+		(at 227 75.7 90)
 		(layer "F.SilkS")
 		(uuid "ce0e1320-6b69-412e-8fa6-ffcbd9897a08")
 		(effects
