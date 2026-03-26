@@ -1,43 +1,85 @@
-# For PCBs designed using KiCad: https://www.kicad.org/
-# Format documentation: https://kicad.org/help/file-formats/
+# Ignore manufacture folder
+manufacture/
 
-# Temporary files
+# ==============================
+# KiCad cache / temp files
+# ==============================
+
 *.000
 *.bak
 *.bck
 *.kicad_pcb-bak
-*.kicad_sch-bak
-*-backups
-*-cache*
-*-bak
-*-bak*
-*~
-~*
-_autosave-*
-\#auto_saved_files\#
-*.tmp
-*-save.pro
-*-save.kicad_pcb
-fp-info-cache
-~*.lck
-\#auto_saved_files#
-
-# Netlist files (exported from Eeschema)
+*.sch-bak
+*-cache.lib
+*-rescue.lib
+*-rescue.dcm
 *.net
+*.tmp
+*.lck
 
-# Autorouter files (exported from Pcbnew)
-*.dsn
-*.ses
+# ==============================
+# KiCad autosave files
+# ==============================
 
-# Exported BOM files
-*.xml
-*.csv
+*_autosave-*
+*.kicad_sch.autosave
+*.kicad_pcb.autosave
 
-# Archived Backups (KiCad 6.0)
-**/*-backups/*.zip
+# ==============================
+# KiCad lock files
+# ==============================
 
-# Local project settings
+*.kicad_pcb.lck
+*.kicad_sch.lck
+
+# ==============================
+# 3D cache
+# ==============================
+
+.kicad_cache/
+*.3dshapes/cache/
+
+# ==============================
+# Local user settings
+# ==============================
+
 *.kicad_prl
+*.kicad_pro.user
+*.kicad_prj-bak
+fp-info-cache
 
-manufacture/*
+# ==============================
+# Plot outputs
+# ==============================
 
+/gerbers/
+/plot/
+/fabrication/
+/production/
+
+*.gbr
+*.drl
+*.zip
+
+# ==============================
+# Drill / manufacturing outputs
+# ==============================
+
+*.d356
+*.pos
+*.csv
+*.rpt
+
+# ==============================
+# OS files
+# ==============================
+
+.DS_Store
+Thumbs.db
+
+# ==============================
+# Editor files
+# ==============================
+
+.vscode/
+.idea/
