@@ -8657,7 +8657,7 @@
 		(uuid "1e1d2cae-6e72-421b-a3e9-09817b18a8bf")
 	)
 	(label "PA2"
-		(at 306.07 227.33 0)
+		(at 306.07 224.79 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -9149,7 +9149,7 @@
 		(uuid "d33f0029-d3fb-41a5-9e0b-ffe07ecbb572")
 	)
 	(label "PA1"
-		(at 306.07 224.79 0)
+		(at 306.07 227.33 0)
 		(effects
 			(font
 				(size 1.27 1.27)
